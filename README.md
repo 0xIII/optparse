@@ -29,21 +29,21 @@ use optparse;
 // functions/closures must take String as their only parameter
 // and not return anything
 fn hello(arg: String) {
-    println!("Hello {} \o/", arg);
+    println!("Hello {} \\o/", arg);
 }
 fn main() {
     // create a new parser with a parser description
-    let mut parser = optargs::Parser::new("Example Description");
+    let mut parser = optparse::Parser::new("Example Description");
 
     // register a flag and a corresponding function to be called
     // from the command line
     // register!(flag, command description, function/closure, parser);
-    register!("-welcome", "Example Description", hello, parser);
+    optparse::register!("-welcome", "Example Description", hello, parser);
 
     // run the parser using the arguments from std::env
     // parse!(arguments, arguments length, parser)
-    let args = std::env::args().collect();
-    parse!(args.clone(), args.len() as u8, parser);
+    let args: Vec<String> = std::env::args().collect();
+    optparse::parse!(args.clone(), args.len() as u8, parser);
 }
 ```
 
