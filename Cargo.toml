@@ -1,11 +1,11 @@
 [package]
 name = "optparse"
-version = "0.1.0"
+version = "0.1.3"
 authors = ["rootlou <louiskaran@gmail.com>"]
 edition = "2018"
 crate-type = ["lib"]
 description = "Simplified parsing of std::env and input arguments from the commandline"
-license = "GPLv3"
+license = "GPL-3.0-only"
 readme = "README.md"
 repository = "https://github.com/rootlou/optparse"
 keywords = ["cli", "parse", "commands"]

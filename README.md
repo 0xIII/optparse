@@ -3,18 +3,14 @@
 optparse
 ===
 ![downloads](https://img.shields.io/github/downloads/atom/atom/total.svg)
-![build](https://img.shields.io/appveyor/ci/rootlou/optparse)
-
-## Table of Contents
-
-[TOC]
+![build](https://img.shields.io/appveyor/build/Rootlou/optparse)
 
 ## License
 This project is licensed under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html).
 
 Installation
 ---
-To add optparse to you Project by downloading it from [crates.io](https://crates.io/crates/optparse) or simply add it to your dependencies:
+Add optparse to your Project by downloading it from [crates.io](https://crates.io/crates/optparse) or simply adding it to your dependencies:
 ```toml
 [dependencies]
 optparse = ["0.1.0"]
@@ -22,7 +18,7 @@ optparse = ["0.1.0"]
 
 Documentation
 ---
-The documentation can be found 
+The documentation can be found [here]().
 
 Usage
 ---
