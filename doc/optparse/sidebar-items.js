@@ -1,0 +1,1 @@
+initSidebarItems({"macro":[["parse","parse arguments from std::env"],["register","simplified registration of flags and functions"]],"struct":[["Func","holds a description of each action and the corresponding function"],["Parser","Handle saving and parsing flags and options"]]});
