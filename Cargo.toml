@@ -1,6 +1,6 @@
 [package]
 name = "optparse"
-version = "0.1.3"
+version = "0.1.4"
 authors = ["rootlou <louiskaran@gmail.com>"]
 edition = "2018"
 crate-type = ["lib"]

@@ -18,7 +18,7 @@ optparse = ["0.1.0"]
 
 Documentation
 ---
-The documentation can be found [here]().
+The documentation can be found [here](https://docs.rs/optparse/0.1.4/optparse/).
 
 Usage
 ---
@@ -53,6 +53,4 @@ Work in Progress
 - [ ] single flag parsing
 - [ ] multi parameter closures
 
-:::info
-**You want to contribute?** Feel free to leave a comment or create a pull request.
-:::
+> **You want to contribute?** Feel free to leave a comment or create a pull request.
