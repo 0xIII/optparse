@@ -1,5 +1,5 @@
 // Simple parser for std::env by rootlou
-// Copyright (C) 2021  rootlou
+// Copyright (C) 2021  KernErr
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
