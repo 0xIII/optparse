@@ -2,8 +2,6 @@
 
 optparse
 ===
-![downloads](https://img.shields.io/github/downloads/atom/atom/total.svg)
-![build](https://img.shields.io/appveyor/build/Rootlou/optparse)
 
 ## License
 This project is licensed under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html).
